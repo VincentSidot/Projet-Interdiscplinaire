@@ -15,19 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="PI_Vincent_System.ino" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="__vm\.PI_Vincent_System.vsarduino.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="SerialInterface.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <None Include="PI_Vincent_Command.ino" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SerialInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SerialInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.PI_Vincent_Command.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
